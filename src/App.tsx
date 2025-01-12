@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
-import { Timer, RefreshCw, Trophy, History, Settings, ChevronDown, Keyboard, BarChart2, Crown } from 'lucide-react';
+import { Timer, RefreshCw, Trophy, History, Settings,  Keyboard, BarChart2, Crown } from 'lucide-react';
 
 // Extended sample texts with different difficulty levels
 const sampleTexts = {
@@ -166,7 +166,7 @@ function App() {
       <div className="max-w-4xl mx-auto">
         <div className="bg-white rounded-xl shadow-lg p-8">
           {/* Header */}
-          <div className="flex justify-between items-center mb-8">
+          <div className="md:flex justify-between items-center mb-8">
             <div className="flex items-center gap-3">
               <h1 className="text-3xl font-bold text-indigo-600">Typing Speed Test</h1>
               <div className="flex gap-2">
