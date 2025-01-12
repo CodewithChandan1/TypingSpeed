@@ -307,7 +307,7 @@ function App() {
                 <Crown size={20} />
                 <h3 className="font-semibold">Personal Best</h3>
               </div>
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid md:grid-cols-2 gap-4">
                 <div>
                   <span className="text-sm text-gray-600">Best WPM:</span>
                   <span className="ml-2 font-bold">{personalBest.wpm}</span>
